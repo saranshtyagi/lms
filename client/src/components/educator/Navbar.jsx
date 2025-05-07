@@ -15,7 +15,7 @@ const Navbar = () => {
       </Link>
       <div className='flex items-center gap-5 text-gray-500 relative'>
         <p>
-          Hi! {user ? user.fullName : 'Develeopers'}
+          Hi! {user ? user.fullName : 'Developers'}
         </p>
         {user ? <UserButton /> : <img className='max-w-8' src={assets.profile_img} />}
       </div>
