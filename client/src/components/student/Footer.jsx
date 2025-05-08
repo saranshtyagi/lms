@@ -6,7 +6,8 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row items-start px-8 md:px-0
        justify-center gap-10 md:gap-32 py-10 border-b border-white/30'>
         <div className='flex flex-col md:items-start items-center w-full'>
-          <img src={assets.logo_dark} alt="logo" />
+          <h3 className='text-white font-semibold'>Learn Buddy</h3>
+          {/* <img src={assets.logo_dark} alt="logo" /> */}
           <p className='mt-6 text-center md:text-left text-sm text-white/80'>Empowering learners through seamless digital education. Our platform offers interactive learning, progress tracking, and expert-curated content—all in one place.</p>
         </div>
         <div className='flex flex-col md:items-start items-center w-full'>
